@@ -1,4 +1,7 @@
 /* Home */
+html {
+  scroll-behavior: smooth;
+}
 body{
   margin:0;
 }
@@ -7,7 +10,7 @@ video{
   top:0;
   left:0;
   object-fit: cover;
- height: 135%;
+ height: 140%;
  width: 100%;
   z-index:-2;
 }
@@ -70,6 +73,7 @@ section{
   font-size: 2.5rem;
   color:#DFF6FF;
   text-align: center;
+  padding-bottom: 2%;
 }
 #about h2{
   font-weight: 700;
@@ -101,6 +105,8 @@ section{
 #skills{
   padding: 6% 2%;
   background-color:#2B4865;
+  position: relative;
+  top: 5%;
 }
 #skills h2{
   text-align: center;
@@ -144,7 +150,7 @@ margin:3% 10%;
 }
 .noskill{
   visibility: hidden;
-  width: 50px
+  width: 50px;
 }
 /* Contact */
 #contact{
@@ -186,8 +192,12 @@ form{
 .fa-3x:hover{
   font-size: 2rem;
 }
+.row{
+  position: relative;
+  right:1%;
+}
 /* Footer */
-#footer{
+/* #footer{
   background-color:#2B4865;
   text-align:center;
   color: #DFF6FF;
@@ -195,7 +205,8 @@ form{
 #footer p{
   padding: 1rem;
   margin-bottom: 0;
-}
+} */
+/* For responsiveness in phone */
 @media (max-width:850px) {
   video{
     height: 140%;
@@ -203,6 +214,8 @@ form{
   }
 .id{
   text-align: center;
+  position: relative;
+  left: 5%;
 }
 .about-info{
   padding-top: 0.5rem;
