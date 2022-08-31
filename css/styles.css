@@ -193,7 +193,7 @@ form{
 }
 @media (min-width:768px) {
   video{
-    height: 140%;
+    height:200%;
   }
 .id{
   text-align: center;
