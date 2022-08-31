@@ -191,7 +191,7 @@ form{
   padding: 1rem;
   margin-bottom: 0;
 }
-@media (min-width:768px) {
+@media (max-width:768px) {
   video{
     height:120%;
     width:100%;
@@ -208,7 +208,7 @@ form{
   padding-top:0;
 }
 .title{
-  padding-bottom:75%;
+  padding-bottom:70%;
 }
 .big_heading{
   padding-top:25rem;
