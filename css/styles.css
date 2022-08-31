@@ -193,7 +193,7 @@ form{
 }
 @media (max-width:768px) {
   video{
-    height:120%;
+    height:135%;
     width:100%;
   }
 .id{
@@ -208,7 +208,7 @@ form{
   padding-top:0;
 }
 .title{
-  padding-bottom:70%;
+  padding-bottom:50%;
 }
 .big_heading{
   padding-top:25rem;
